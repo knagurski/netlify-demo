@@ -1,0 +1,12 @@
+{
+  "name": "netlify-demo",
+  "version": "1.0.0",
+  "description": "Quick demo of netlify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build"
+  },
+  "author": "Kevin Nagurski <kevin.nagurski@bazaarvoice.com>",
+  "license": "MIT"
+}
