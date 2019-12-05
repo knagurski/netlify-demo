@@ -8,5 +8,8 @@
     "build": "node build"
   },
   "author": "Kevin Nagurski <kevin.nagurski@bazaarvoice.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.8.1"
+  }
 }
