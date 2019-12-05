@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Netlify Demo</title>
-</head>
-<body>
-<h1>This is a quick demo of how Netlify works</h1>
-<p>This page was generated on <time><!-- build-time --></time></p>
-</body>
+    <style>
+        body {
+            min-height: 100vh;
+            background-color: rgb(240,240,240);
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            background-color: white;
+            box-shadow: 0 3px 10px 4px rgba(0,0,0,.2);
+            border-radius: 3px;
+            padding: 2rem;
+            color: rgb(64,64,64);
+        }
+
+        h1 {
+            font-family: "Avenir Next", sans-serif;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            font-family: Avenir, sans-serif;
+            margin: 0;
+        }
+
+        time {
+            font-family: "Fira Code", Courier, sans-serif;
+            color: rgb(0,0,0);
+            padding: 3px 6px;
+            background-color: hotpink;
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>This is a quick demo of how Netlify works</h1>
+      <p>
+        This page was generated on <time><!-- build-time --></time>
+      </p>
+    </main>
+  </body>
 </html>
